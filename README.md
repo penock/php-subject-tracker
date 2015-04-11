@@ -20,12 +20,10 @@ I didn't want an army of research assistants to do this. With StudyHandler, I wa
 My code (that is, StudyHandler, some online instructions and some other PHP relating to questionnaires) allowed a participant to go through the entire 3-month protocol without needing to interact with our staff. What we did was watch StudyHandler and intervene when someone had a question, stopped participating, or had technical issues on their end. The system ended up working incredibly well.
 
 ## Screenshots
-You can see screenshots of the Admin page:
+Here are screenshots of the Admin page:
 
-![alt text](screenshot-p1.png)
-
-[https://github.com/penock/php-subject-tracker/blob/master/screenshot-p1.png](Screenshot of Admin page 1)
-[https://github.com/penock/php-subject-tracker/blob/master/screenshot-p2.png](Screenshot of Admin page 2)
+![Screenshot of Admin page 1](screenshot-p1.png)
+![Screenshot of Admin page 2](screenshot-p2.png)
 
 (The admin page was secured so only the research assistants and I had access to email addresses... now you see fake emails in there, of course. Password protection and file permissions were important to the security situation.)
 
