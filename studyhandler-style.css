@@ -1,0 +1,96 @@
+
+/* PALETTE
+  blackish - 181818
+  soft black - 333
+  light gray - ddd
+  hard red - d42828
+  light blue - 0089d8
+  soft blue bg for forms - d6e5f4
+  link - 3563f0 (made up)
+  link hover - 557cf2
+  button color - fffae8
+  Android instructions - 389B8A
+  h3 dark turquoise - 00598C (from ColorToy off of the light blue)
+  [not yet used] green - 03cd3e (from iPhone icon on iPhone)
+  [not yet used] orange - fe9c01 (from iPod icon on iPhone)
+ */
+
+form {
+  margin: 0;padding: 0;
+}
+.inputArea {
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	background-color: #d6e5f4;
+	padding: 15px 5px 15px 5px;
+	width:407px;
+  margin-bottom: 25px;
+	
+	border: 1px solid;
+  border-top-color: #eee;
+  border-left-color: #eee;
+  border-bottom-color: #cacaca;
+  border-right-color: #cacaca;
+}
+.inputArea input.spaced {
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	margin-top: 12px;
+  margin-bottom: 0px;
+	display: inline;
+	padding: 3px 3px 0px 3px;
+	height: 26px;
+}
+.inputArea .submit{
+	width: 150px;
+	cursor: pointer;
+}
+.activeField {
+	background-color: #ffffff;
+	border: solid 1px #33677F;
+}
+.idle {
+	border: solid 1px #85b1de;
+}
+div.leftdiv {
+  float:left;
+  width:50%;
+  margin-top: 15px;
+}
+div.rightdiv {
+  float:right;
+  width: 50%; /* might not do anything */
+  margin-top: 15px;
+}
+table.csv {
+  font-size: 12px;
+  width: 100%;
+  border: 1px solid;
+  border-top-color: #eee;
+  border-left-color: #eee;
+  border-bottom-color: #cacaca;
+  border-right-color: #cacaca;
+  clear:both;
+  color: #00598C;
+  padding-top: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+table.csv td {
+  padding: 5px 1px;
+}
+table.csv tr.headrow {
+  text-decoration: underline;
+}
+.actionlist {
+  color: #7C1210;
+}
+.alert {
+  font-size: 16px;
+  color: #f00;
+  font-weight: bold;
+}
+.logit {
+  color: #888;
+  font-style: italic;
+}

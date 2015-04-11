@@ -1,0 +1,458 @@
+/*
+ * NOTES
+ * - Valid placeholders are P_ID (only valid in ADD messages), P_WEEK, P_NAME, P_EMAIL, and P_ACTIONTAG, TODAY_DAYOFWEEK_MONTH_DAY (like "Monday, March 1")
+*/
+
+/******************************************************************************/
+
+[[GREETING-START]]
+Dear P_NAME,
+[[GREETING-END]]
+
+/******************************************************************************/
+
+[[SIGNATURE-START]]
+Thank you,
+
+Handheld Training Study team
+Harvard University
+[[SIGNATURE-END]]
+
+/******************************************************************************/
+
+[[REMINDER-PREFIX-START]]
+We have not yet received your responses to the questions set we sent you recently. It is important that you respond to these questions as soon as possible. We appreciate the time and effort you put into maintaining the study procedure with us.
+
+Below is our recent email to you: please follow the link there and complete the questions set.
+-----------
+[[REMINDER-PREFIX-END]]
+
+[[REMINDERINSTRUCTIONS-PREFIX-START]]
+It seems as though you have not yet read the online instructions or begun training. Please begin as soon as possible.
+
+Below is our recent email to you: please follow the link to the instructions there to begin training.
+-----------
+[[REMINDERINSTRUCTIONS-PREFIX-END]]
+
+/******************************************************************************/
+
+[[ADD-MN-SUBJECT]]
+Your login/ID for training and follow-up to meeting
+[[ADD-MN-MESSAGE-START]]
+Thank you for coming in for the meeting.
+
+During our meeting, you may recall that we entered your login/ID into your handheld while visiting the training website. It will remember your login/ID, so you shouldn't need it again during the study. However, just in case your browser memory (with your bookmark and "cookies") happens to get wiped (e.g. for technical support on your handheld, unrelated to the study, you clear your cookies or reset your phone back to the default factory settings), here is the complete info, which you could use to set up your handheld training again:
+
+The training website: handheldtrainingstudy.com/train
+Your login/ID for training: P_ID
+
+We have made online instructions available to you. They cover essentially what we went through in the meeting, but please look through them briefly, to review, at:
+http://handheldtrainingstudy.com/instructions-m/?email=P_EMAIL
+
+Also, we're sending you a separate email with the first weekly questions set to complete.
+
+After doing that, just continue your training by doing today's remaining 2 sessions and continuing with the 3x/day schedule we discussed. One of us will check in with you in a few days to see how you're doing.
+[[ADD-MN-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[ADD-ON-SUBJECT]]
+Ready to begin training now -- please begin as soon as possible
+[[ADD-ON-MESSAGE-START]]
+Based on random assignment, you will not be receiving delayed active training. Therefore, you'll start right away with training, which will be either active or control training. You'll find out which one you had at the end of the study, after the 2-month follow-up. For a description of the conditions, see http://handheldtrainingstudy.com/intro-p3.php
+
+You are now ready to follow the online instructions and begin training. Please do this as soon as possible, or within 72 hours from now at the latest.
+
+To begin, use a laptop or desktop computer to visit the following site, so it can walk you through beginning training on your handheld, step by step:
+http://handheldtrainingstudy.com/instructions-o/?email=P_EMAIL
+
+Viewing past the beginning of those instructions the first time will automatically initiate your training schedule to start at day 1. (It's okay to re-visit later.)
+
+At some point during the instructions, you will need your login/ID for training. 
+
+Your login/ID for training is: P_ID
+
+After you finish the instructions, please send us an email to tell us that you're starting training, so that we can make sure things are going smoothly.
+[[ADD-ON-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[ADD-OD-SUBJECT]]
+You have been assigned to delayed active training (includes your login)
+[[ADD-OD-MESSAGE-START]]
+Based on random assignment, you'll be receiving delayed active training. For a comparison of this condition to the others, see http://handheldtrainingstudy.com/intro-p3.php
+
+For the next 4 weeks (the "delay period"), your role is to respond to the questions sets that we send you each week. There won't be any training until the end of these 4 weeks--then, after the 4 weeks are up, you will receive the active training.
+
+In case you would like further details, below is the full description of delayed active training from the consent form that you saw when signing up for the study. Please read that description carefully before emailing us for clarification, which we'll gladly provide if needed.
+
+We're sending you another email right now with the first weekly questions set. Once you respond to it, your 4-week delay period will begin.
+
+Lastly, when your active training begins (4 weeks from now), you will need your own login for training. Please make a note of it (for example, on your handheld device in a calendar entry 4 weeks from now).
+
+Your login will be: P_ID 
+
+---
+
+In the delayed active training condition, there are differences from the other two (active and control) conditions. First, your training will be delayed, meaning that for 4 weeks, you will not do any training. Rather, you will simply respond to online questions that we send you each week. At the end of this period, you will receive active training for 4 weeks. If you are unable to start right after the 4-week delay period, we will allow you to start active training later. We require you to complete questions sets during the 4-week delay period. As long as you have completed these on time, you will have earned your access to the active training.
+
+Another important difference from the other conditions is that, in the delayed active training condition, you will know which condition you are in, and you will be guaranteed to receive the active training after only 4 weeks  in the study. Thus, in the delayed active training condition, the drawbacks are that you must wait to start any training and that you must complete 5 extra questions sets; however, the benefit is that you wait 4 weeks instead of 3 months (as the other conditions require) to receive guaranteed active training.
+[[ADD-OD-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[DAILY-MN-SUBJECT]]
+Daily reminder for TODAY_DAYOFWEEK_MONTH_DAY
+[[DAILY-MN-MESSAGE-START]]
+Here is your friendly reminder to do your training sessions for today.
+
+Please try to do one session in the morning (4am-12pm), one in the afternoon (12pm-8pm), and one in the evening (8pm-4am). You can make up missed sessions within the same day.
+
+For your reference, full instructions for training are posted at http://handheldtrainingstudy.com/instructions-m
+
+If the site seems to be having any problems, please hit reply and let us know.
+[[DAILY-MN-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[DAILY-ON-SUBJECT]]
+Daily reminder for TODAY_DAYOFWEEK_MONTH_DAY
+[[DAILY-ON-MESSAGE-START]]
+Here is your friendly reminder to do your training sessions for today.
+
+Please try to do one session in the morning (4am-12pm), one in the afternoon (12pm-8pm), and one in the evening (8pm-4am). You can make up missed sessions within the same day.
+
+For your reference, full instructions for training are posted at http://handheldtrainingstudy.com/instructions-o
+
+If the site seems to be having any problems, please hit reply and let us know.
+[[DAILY-ON-MESSAGE-END]]
+
+/******************************************************************************/
+[[DAILY-OD-SUBJECT]]
+Daily reminder for TODAY_DAYOFWEEK_MONTH_DAY
+[[DAILY-OD-MESSAGE-START]]
+Here is your friendly reminder to do your training sessions for today.
+
+Please try to do one session in the morning (4am-12pm), one in the afternoon (12pm-8pm), and one in the evening (8pm-4am). You can make up missed sessions within the same day.
+
+For your reference, full instructions for training are posted at http://handheldtrainingstudy.com/instructions-o
+
+If the site seems to be having any problems, please hit reply and let us know.
+[[DAILY-OD-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[DROPBEFORE-SUBJECT]]
+Canceling your participation in Handheld Training Study
+[[DROPBEFORE-MESSAGE-START]]
+We gather that you have chosen to or have needed to not participate in the study. We understand that things come up or people their minds about the study, so it is normal for some people to need to withdraw from participation as you have done.
+
+We just wanted to confirm this and tell you that we are taking you off of the participation list.
+
+Please reply if you have any questions.
+
+Take care,
+[[DROPBEFORE-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[DAY1-SUBJECT]]
+First Day Questions Set ready: Please complete within 24 hours
+[[DAY1-MESSAGE-START]]
+Please complete the First Day Questions set, which includes some preliminary questions and what will be your Weekly Questions Set as well. Some of these are similar to questions you completed during sign-up, but please read the directions carefully, as they are somewhat different.
+
+Please respond as soon as possible within 24 hours by clicking the following link or copying and pasting this exact address into your browser:
+http://handheldtrainingstudy.com/qs.php?do=d1&email=P_EMAIL
+
+The questions usually take 10-15 minutes to answer.
+[[DAY1-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[P0-SUBJECT]]
+First Weekly Questions Set ready: Please complete as soon as possible
+[[P0-MESSAGE-START]]
+Please complete the first Weekly Questions Set. Some of these are similar to questions you completed during sign-up, but please read the directions carefully, as they are somewhat different.
+
+Please respond as soon as possible by clicking the following link or copying and pasting this exact address into your browser:
+http://handheldtrainingstudy.com/qs.php?do=p0&email=P_EMAIL
+
+The questions usually take 10-15 minutes to answer.
+[[P0-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[DELAYSTART-SUBJECT]]
+Received your responses: Delay period begins now
+[[DELAYSTART-MESSAGE-START]]
+Thanks for completing the first Weekly Questions Set.
+
+Today will be day 1 of your 4-week (29 days, to be precise) delay period. You'll receive a questions set every 7 days until day 29, after which you'll be ready to begin active training, assuming you have a good record of completing the questions sets.
+
+We appreciate your participation!
+[[DELAYSTART-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[WEEKLY-SUBJECT]]
+Weekly Questions Set ready: Please complete within 24 hours
+[[WEEKLY-MESSAGE-START]]
+So far, you have completed P_WEEK out of 4 weeks. It is time to complete a weekly questions set.
+
+Please respond as soon as possible within 24 hours by clicking the following link or copying and pasting this exact address into your browser:
+http://handheldtrainingstudy.com/qs.php?do=P_ACTIONTAG&email=P_EMAIL
+
+The questions usually take about 10 minutes to answer.
+[[WEEKLY-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[LASTTRAININGDAY-SUBJECT]]
+Today is the last day of your training. Two Questions Sets will arrive tomorrow.
+[[LASTTRAININGDAY-MESSAGE-START]]
+Congratulations: Once you finish today's training sessions, you will have finished the training portion of the study.
+
+PLEASE NOTE: Today's sessions are very important to do. If, for some reason, you miss all of today's session, you may do the special session over the next couple of days instead.
+
+At this point, the study won't be over, because we still need to check in with you 1 month and 2 months from now. However, you won't be using the training program anymore, at least until 2 months from now, at which point you will have the opportunity to use the active training, if you wish, for your benefit.
+
+Also, tomorrow, we'll send you two different Questions Sets:
+1. The Weekly Questions Set as usual
+2. The End of Training Questions Set, asking about your training and outside events during training
+[[LASTTRAININGDAY-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[WEEK4-SUBJECT]]
+(#1 of 2 Questions Sets for today) Weekly Questions Set
+[[WEEK4-MESSAGE-START]]
+Here is your final Weekly Questions Set. Please complete this, as well as the "End of Training Questions Set" which we are sending you now in a separate email.
+
+Please note that you have these 2 separate Questions Sets to do, which, you'll notice, have different questions in them.
+
+Please respond as soon as possible within 24 hours by clicking the following link or copying and pasting this exact address into your browser:
+http://handheldtrainingstudy.com/qs.php?do=P_ACTIONTAG&email=P_EMAIL
+
+The questions usually take about 10 minutes to answer.
+[[WEEK4-MESSAGE-END]]
+
+/******************************************************************************/
+[[ENDOFTRAINING-SUBJECT]]
+(#2 of 2 Questions Sets for today) End of Training Questions Set
+[[ENDOFTRAINING-MESSAGE-START]]
+Now that training is complete, please respond to this End of Training Questions Set, as well as the Weekly Questions Set which we are sending you now in a separate email.
+
+Please note that you have these 2 separate Questions Sets to do, which, you'll notice, have different questions in them.
+
+Please respond as soon as possible within 24 hours by clicking the following link or copying and pasting this exact address into your browser:
+http://handheldtrainingstudy.com/qs.php?do=P_ACTIONTAG&email=P_EMAIL
+
+The questions usually take 10-15 minutes to answer.
+[[ENDOFTRAINING-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[FOLLOWUP-SUBJECT]]
+Follow-up Questions Set for Handheld Training Study: Please complete as soon as possible
+[[FOLLOWUP-MESSAGE-START]]
+As you may remember, we mentioned that we would follow up with you 1 month after the end of training. So, as agreed when you signed up for the study... 
+
+Please respond as soon as possible by clicking the following link or copying and pasting this exact address into your browser:
+http://handheldtrainingstudy.com/qs.php?do=P_ACTIONTAG&email=P_EMAIL
+
+The questions usually take about 10-15 minutes to answer.
+
+After this, we won't need to contact you again until another month from now, which will be the 2nd and final follow-up.
+[[FOLLOWUP-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[FOLLOWUP2-SUBJECT]]
+2-month (Final) Follow-up Questions Set for Handheld Training Study: Please complete as soon as possible
+[[FOLLOWUP2-MESSAGE-START]]
+As you may remember, we mentioned that we would follow up with you 2 months after the end of training (this is 1 month since we last sent you a questions set). So, as agreed when you signed up for the study... 
+
+Please respond as soon as possible by clicking the following link or copying and pasting this exact address into your browser:
+http://handheldtrainingstudy.com/qs.php?do=P_ACTIONTAG&email=P_EMAIL
+
+The questions usually take about 15 minutes to answer.
+
+Responding to these questions will complete your commitment to the study. You'll see more information at the end of the questions.  
+[[FOLLOWUP2-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[ENDOFDELAY-SUBJECT]]
+Delay period questions complete -- Now ready for training
+[[ENDOFDELAY-MESSAGE-START]]
+Now that the delay period is up, you have the opportunity to begin training, which will be active training. For a description of the conditions, see http://handheldtrainingstudy.com/intro-p3.php
+
+Most people prefer to start right away, which you can do. We would also prefer this. If you have a conflict, however, such as going on vacation without internet access for a full week, you should wait until after that to begin. If you do need to wait, don't click the link below, and no need to reply to this email. You can ignore reminders to start from our system for the next few days, then you can begin when you're ready (within reason--contact us if you want to wait more than 3 weeks), and return to this email to start.
+
+To begin training now, use a laptop or desktop computer to visit the following site, so it can walk you through how to begin training on your handheld, step by step:
+http://handheldtrainingstudy.com/instructions-o/?email=P_EMAIL
+
+Viewing past the beginning of those instructions the first time will automatically initiate your training schedule to start at day 1. (It's okay to re-visit later.)
+
+At some point during the instructions, you will need your login/ID for training. You should retrieve the one we emailed you at the start of the delay period (presumably 4 weeks ago). At the time, we suggested that you might note it in your handheld device's calendar for approximately today. You can also go and find the email we sent: In your email site/program, run a search for team@handheldtrainingstudy.com (or from that address), and go to the oldest emails to find the one with your login, which had the subject line, "You have been assigned to delayed active training (includes your login)". If you try but can't find it, email us.
+
+After you finish the instructions, please send us an email to tell us that you're starting training, so that we can make sure things are going smoothly.
+[[ENDOFDELAY-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[DROPEARLY-SUBJECT]]
+Discontinuing your participation in Handheld Training Study
+[[DROPEARLY-MESSAGE-START]]
+We gather that you have chosen to or have needed to discontinue your participation in the study. This is not a problem, and you have no further obligations for the study.
+
+Please reply if you have any questions.
+
+The following is the debriefing statement about the study that we are required to send you, in case you would like to know more.
+
+-------
+
+Your contribution will help in understanding and improving this method as a treatment for social anxiety and excessive worrying. If you have any questions, feel free to reply to this email or contact me by phone. I would be happy to meet to discuss any questions you may have.
+
+The following text provides more some detailed information about the training procedure. It is not known whether reading the text below will reduce (or improve) the effectiveness of the training method if you continue to use it.
+
+Social anxiety disorder (SAD) is defined by an impairing level of anxiety about social situations and about being evaluated unfavorably by others. Generalized anxiety disorder (GAD) is defined by having uncontrollable worry about many things, accompanied by symptoms of tension such as restlessness, irritability and sleep disturbance. The symptoms of these disorders are also experienced by many people who do not qualify for the full diagnosis of a disorder but may benefit from treatment.
+
+Numerous studies show that people with SAD and GAD exhibit selective processing for threat. The greater attentional resources devoted to threatening stimuli foster anxiety pronenesss (McNally & Reese, 2009). Attentional bias is thought to heighten focus on external indicators of negative evaluation by others, thus playing an important role in maintaining the disorder (Rapee & Heimberg, 1997). These mechanisms have been found to be fully active in individuals who do not meet an SAD diagnosis but who have high levels of social anxiety.
+
+The computerized treatment used in this study has been termed Attention Modification. It was developed to reduce threat bias and thus curtail social anxiety. In a repeated process, two faces are presented on the screen, one neutral and one threatening, and participants are implicitly steered to look at the neutral face rather than the threatening one.
+
+Results have been promising: in Amir et al. (2008), patients diagnosed with generalized SAD were given 20 minutes of training, twice a week for 4 weeks. Afterward, 50% of patients in the active condition no longer met diagnostic criteria for SAD, compared with 14% of patients in the control condition, which used of the same computer task that does not steer the user. Anxiety symptoms were reduced and remained lowered in a 4-month follow-up. Comparable results were also obtained in a study applied to GAD with a similar protocol (Amir, Beard, Burns, & Bomyea, 2009), and an additional study with SAD patients (Schmidt, Richey, Buckner, & Timpano, 2009).
+
+In all three of the aforementioned studies, regardless of whether they involved SAD or GAD patients, found significant reductions in general anxiety measures in the treatment groups more than control groups. Thus, evidence indicates that the same treatment can address both types of anxiety issues.
+
+This study follows our first study, which was the first two study of Attention Modification in handheld format. Using handhelds allowed us to test a more continuous, potentially more effective and convenient training schedule.
+
+If you have any questions about this research, please contact Phil Enock, .
+
+References
+
+Amir, N., Beard, C., Burns, M., & Bomyea, J. (2009). Attention modification program in individuals with generalized anxiety disorder. Journal of Abnormal Psychology, 118(1), 28-33.
+
+Amir, N., Beard, C., Taylor, C. T., Klumpp, H., Elias, J., Burns, M., et al. (2009). Attention training in individuals with generalized social phobia: A randomized controlled trial. Journal of Consulting and Clinical Psychology, 77(5), 961-973.
+
+McNally, R. F., & Reese, H. E. (2009). Information-processing approaches to understanding anxiety disorders. Oxford handbook of anxiety and related disorders. Oxford library of psychology, 136-152.
+
+Rapee, R. M., & Heimberg, R. G. (1997). A cognitive-behavioral model of anxiety in social phobia. Behaviour Research and Therapy, 35(8), 741-756.
+
+Schmidt, N. B., Richey, J. A., Buckner, J. D., & Timpano, K. R. (2009). Attention training for generalized social anxiety disorder. Journal of Abnormal Psychology, 118(1), 5-14.
+
+-------
+
+[[DROPEARLY-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[DROPFULL-SUBJECT]]
+End of Training Questions Set for discontinuing your participation in Handheld Training Study
+[[DROPFULL-MESSAGE-START]]
+We gather that you have chosen to or have needed to discontinue your participation in the study. This is not a problem, and you have no further obligations for the study.
+
+If you wouldn't mind spending 10-15 minutes more to answer some questions about your experience, it would be very helpful to us if you could do so. That way, we can understand what, if anything, went wrong and can benefit from your feedback when we plan future studies.
+
+Please respond to this End of Training Questions Set by following this link:
+http://handheldtrainingstudy.com/qs.php?do=etd&email=P_EMAIL
+
+If you had signed up for Harvard Study Pool credit, we will not award credit unless we hear from you: Please reply to discuss partial credit if you would like any.
+
+Please reply if you have any questions.
+
+If you do not wish to complete the End of Training Questions Set, please let us know, so that we can send you the debriefing statement that we are required to send to all participants when they finish or discontinue in the study.
+[[DROPFULL-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[ALLDONE-SUBJECT]]
+All done -- thank you for participating in the Handheld Training Study
+[[ALLDONE-MESSAGE-START]]
+Thank you for completing the final Questions Set we sent you.
+
+We'll send you an email soon to tell you whether you received the active or control version of the training. We'll also confirm whether you want to use the active training and provide more information about the training.
+
+The following is the debriefing statement about the study that we are required to send you, in case you would like to know more.
+
+-------
+
+Your contribution will help in understanding and improving this method as a treatment for social anxiety. If you have any questions, feel free to reply to this email or contact me by phone. I would be happy to meet to discuss any questions you may have.
+
+The following text provides more some detailed information about the training procedure. It is not known whether reading the text below will reduce (or improve) the effectiveness of the training method if you continue to use it.
+
+Social anxiety disorder (SAD) is defined by an impairing level of anxiety about social situations and about being evaluated unfavorably by others. Generalized anxiety disorder (GAD) is defined by having uncontrollable worry about many things, accompanied by symptoms of tension such as restlessness, irritability and sleep disturbance. The symptoms of these disorders are also experienced by many people who do not qualify for the full diagnosis of a disorder but may benefit from treatment.
+
+Numerous studies show that people with SAD and GAD exhibit selective processing for threat. The greater attentional resources devoted to threatening stimuli foster anxiety pronenesss (McNally & Reese, 2009). Attentional bias is thought to heighten focus on external indicators of negative evaluation by others, thus playing an important role in maintaining the disorder (Rapee & Heimberg, 1997). These mechanisms have been found to be fully active in individuals who do not meet an SAD diagnosis but who have high levels of social anxiety.
+
+The computerized treatment used in this study has been termed Attention Modification. It was developed to reduce threat bias and thus curtail social anxiety. In a repeated process, two faces are presented on the screen, one neutral and one threatening, and participants are implicitly steered to look at the neutral face rather than the threatening one.
+
+Results have been promising: in Amir et al. (2008), patients diagnosed with generalized SAD were given 20 minutes of training, twice a week for 4 weeks. Afterward, 50% of patients in the active condition no longer met diagnostic criteria for SAD, compared with 14% of patients in the control condition, which used of the same computer task that does not steer the user. Anxiety symptoms were reduced and remained lowered in a 4-month follow-up. Comparable results were also obtained in a study applied to GAD with a similar protocol (Amir, Beard, Burns, & Bomyea, 2009), and an additional study with SAD patients (Schmidt, Richey, Buckner, & Timpano, 2009).
+
+In all three of the aforementioned studies, regardless of whether they involved SAD or GAD patients, found significant reductions in general anxiety measures in the treatment groups more than control groups. Thus, evidence indicates that the same treatment can address both types of anxiety issues.
+
+This study follows our first study, which was the first two study of Attention Modification in handheld format. Using handhelds allowed us to test a more continuous, potentially more effective and convenient training schedule.
+
+If you have any questions about this research, please contact Phil Enock, .
+
+References
+
+Amir, N., Beard, C., Burns, M., & Bomyea, J. (2009). Attention modification program in individuals with generalized anxiety disorder. Journal of Abnormal Psychology, 118(1), 28-33.
+
+Amir, N., Beard, C., Taylor, C. T., Klumpp, H., Elias, J., Burns, M., et al. (2009). Attention training in individuals with generalized social phobia: A randomized controlled trial. Journal of Consulting and Clinical Psychology, 77(5), 961-973.
+
+McNally, R. F., & Reese, H. E. (2009). Information-processing approaches to understanding anxiety disorders. Oxford handbook of anxiety and related disorders. Oxford library of psychology, 136-152.
+
+Rapee, R. M., & Heimberg, R. G. (1997). A cognitive-behavioral model of anxiety in social phobia. Behaviour Research and Therapy, 35(8), 741-756.
+
+Schmidt, N. B., Richey, J. A., Buckner, J. D., & Timpano, K. R. (2009). Attention training for generalized social anxiety disorder. Journal of Abnormal Psychology, 118(1), 5-14.
+
+-------
+
+[[ALLDONE-MESSAGE-END]]
+
+/******************************************************************************/
+
+[[ETDDONE-SUBJECT]]
+End of Training Questions Set received -- All set.
+[[ETDDONE-MESSAGE-START]]
+Thank you for participating for part of the Handheld Training Study and for completing the final Questions Set we sent you. We wish you the best.
+
+The following is the debriefing statement about the study that we are required to send you, in case you would like to know more.
+
+-------
+
+Your contribution will help in understanding and improving this method as a treatment for social anxiety. If you have any questions, feel free to reply to this email or contact me by phone. I would be happy to meet to discuss any questions you may have.
+
+The following text provides more some detailed information about the training procedure. It is not known whether reading the text below will reduce (or improve) the effectiveness of the training method if you continue to use it.
+
+Social anxiety disorder (SAD) is defined by an impairing level of anxiety about social situations and about being evaluated unfavorably by others. Generalized anxiety disorder (GAD) is defined by having uncontrollable worry about many things, accompanied by symptoms of tension such as restlessness, irritability and sleep disturbance. The symptoms of these disorders are also experienced by many people who do not qualify for the full diagnosis of a disorder but may benefit from treatment.
+
+Numerous studies show that people with SAD and GAD exhibit selective processing for threat. The greater attentional resources devoted to threatening stimuli foster anxiety pronenesss (McNally & Reese, 2009). Attentional bias is thought to heighten focus on external indicators of negative evaluation by others, thus playing an important role in maintaining the disorder (Rapee & Heimberg, 1997). These mechanisms have been found to be fully active in individuals who do not meet an SAD diagnosis but who have high levels of social anxiety.
+
+The computerized treatment used in this study has been termed Attention Modification. It was developed to reduce threat bias and thus curtail social anxiety. In a repeated process, two faces are presented on the screen, one neutral and one threatening, and participants are implicitly steered to look at the neutral face rather than the threatening one.
+
+Results have been promising: in Amir et al. (2008), patients diagnosed with generalized SAD were given 20 minutes of training, twice a week for 4 weeks. Afterward, 50% of patients in the active condition no longer met diagnostic criteria for SAD, compared with 14% of patients in the control condition, which used of the same computer task that does not steer the user. Anxiety symptoms were reduced and remained lowered in a 4-month follow-up. Comparable results were also obtained in a study applied to GAD with a similar protocol (Amir, Beard, Burns, & Bomyea, 2009), and an additional study with SAD patients (Schmidt, Richey, Buckner, & Timpano, 2009).
+
+In all three of the aforementioned studies, regardless of whether they involved SAD or GAD patients, found significant reductions in general anxiety measures in the treatment groups more than control groups. Thus, evidence indicates that the same treatment can address both types of anxiety issues.
+
+This study follows our first study, which was the first two study of Attention Modification in handheld format. Using handhelds allowed us to test a more continuous, potentially more effective and convenient training schedule.
+
+If you have any questions about this research, please contact Phil Enock, .
+
+References
+
+Amir, N., Beard, C., Burns, M., & Bomyea, J. (2009). Attention modification program in individuals with generalized anxiety disorder. Journal of Abnormal Psychology, 118(1), 28-33.
+
+Amir, N., Beard, C., Taylor, C. T., Klumpp, H., Elias, J., Burns, M., et al. (2009). Attention training in individuals with generalized social phobia: A randomized controlled trial. Journal of Consulting and Clinical Psychology, 77(5), 961-973.
+
+McNally, R. F., & Reese, H. E. (2009). Information-processing approaches to understanding anxiety disorders. Oxford handbook of anxiety and related disorders. Oxford library of psychology, 136-152.
+
+Rapee, R. M., & Heimberg, R. G. (1997). A cognitive-behavioral model of anxiety in social phobia. Behaviour Research and Therapy, 35(8), 741-756.
+
+Schmidt, N. B., Richey, J. A., Buckner, J. D., & Timpano, K. R. (2009). Attention training for generalized social anxiety disorder. Journal of Abnormal Psychology, 118(1), 5-14.
+
+-------
+
+[[ETDDONE-MESSAGE-END]]
