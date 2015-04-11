@@ -21,8 +21,8 @@ My code (that is, StudyHandler, some online instructions and some other PHP rela
 
 ## Screenshots
 You can see screenshots of the Admin page:
-[LINK HERE]
-[LINK HERE]
+[https://github.com/penock/php-subject-tracker/blob/master/screenshot-p1.png](Screenshot of Admin page 1)
+[https://github.com/penock/php-subject-tracker/blob/master/screenshot-p2.png](Screenshot of Admin page 2)
 
 (The admin page was secured so only the research assistants and I had access to email addresses... now you see fake emails in there, of course. Password protection and file permissions were important to the security situation.)
 
