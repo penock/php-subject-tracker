@@ -21,6 +21,9 @@ My code (that is, StudyHandler, some online instructions and some other PHP rela
 
 ## Screenshots
 You can see screenshots of the Admin page:
+
+![alt text](screenshot-p1.png)
+
 [https://github.com/penock/php-subject-tracker/blob/master/screenshot-p1.png](Screenshot of Admin page 1)
 [https://github.com/penock/php-subject-tracker/blob/master/screenshot-p2.png](Screenshot of Admin page 2)
 
