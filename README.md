@@ -6,7 +6,7 @@ StudyHandler was a totally functioning and useful system, though it was written 
 
 I wrote StudyHandler from scratch in PHP (+ HTML, CSS) in the summer of 2010 in preparation for launching my online experiment in which participants/subjects did an experimental cognitive training exercise (called attentional bias modification) via smartphone intended to reduce severe, chronic social anxiety.
 
-I published the findings in a peer-reviewed journal article ([PDF](https://dl.dropboxusercontent.com/u/11449376/papers/Enock-2014-smartphone-ABM.pdf)
+I published the findings in a peer-reviewed journal article ([PDF](https://dl.dropboxusercontent.com/u/11449376/papers/Enock-2014-smartphone-ABM.pdf))
 
 It was also covered in this [New York Times article](http://www.nytimes.com/2012/02/14/health/feeling-anxious-soon-there-will-be-an-app-for-that.html) and other media outlets. Fun fact: Most of our 326 participants volunteered after hearing about the study in [The Economist](http://www.economist.com/node/18276234).
 
@@ -37,4 +37,4 @@ Here are screenshots of the Admin page:
 4. Logs -- every action taken by StudyHandler was logged, so I could always go back and trace what had happened. It ended up running pretty flawlessly though, so they didn't turn out to be necessary.
 
 ## Files in this repository
-The key file here with most of the code is: **index.php**
+The key file here with most of the code is: **[index.php](index.php)**
